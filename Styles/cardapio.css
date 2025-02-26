@@ -3,7 +3,7 @@
     display: none;
     z-index: 2;
     flex-flow: row wrap;
-    padding-top: 2em;
+    padding-top: 7em;
 }
 .abrirCardapio{
     color: var(--cor2);
