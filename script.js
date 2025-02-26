@@ -10,51 +10,53 @@ let ADICIONAIS = []
 
 let espetos = [
     ["lista", "espetos", "vazio"],
-    ["Bovino", "", 8.00, 0],
-    ["Coração", "", 7.00, 0],
-    ["Queijo coalho", "", 7.00, 0],
-    ["Queijo coalho", "", 7.00, 0],
-    ["Queijo bolinha", "", 8.00, 0],
-    ["Queijo bolinha defumado", "", 8.00, 0],
-    ["Kafta bovina", "", 7.00, 0],
-    ["Kafta de frango", "", 7.00, 0],
-    ["Kafta recheada", "", 8.00, 0],
-    ["Linguiça suína", "", 7.00, 0],
-    ["Linguiça apimentada", "", 7.00, 0],
-    ["Linguiça toscana", "", 7.00, 0],
-    ["Pão de alho", "", 7.00, 0],
-    ["Medalhão de mussarela", "", 8.00, 0],
-    ["Medalhão romeu e julieta", "", 8.00, 0],
-    ["Medalhão mandioca", "", 8.00, 0],
-    ["Panceta", "",  7.00, 0],
-    ["Tábua de mandioca e tomate (inteira)", "", 8.00, 0]
+    ["Bovino", "espeto", 8.00, 0],
+    ["Coração", "espeto", 7.00, 0],
+    ["Queijo coalho", "espeto", 8.00, 0],
+    ["Queijo bolinha", "espeto", 8.00, 0],
+    ["Queijo bolinha defumado", "espeto", 8.00, 0],
+    ["Kafta bovina", "espeto", 7.00, 0],
+    ["Kafta de frango", "espeto", 7.00, 0],
+    ["Kafta recheada", "espeto", 8.00, 0],
+    ["Linguiça suína", "espeto", 7.00, 0],
+    ["Linguiça apimentada", "espeto", 7.00, 0],
+    ["Linguiça toscana", "espeto", 7.00, 0],
+    ["Pão de alho", "espeto", 7.00, 0],
+    ["Tulipa de frango", "espeto", 7.00, 0],
+    ["Medalhão de frango", "espeto", 0.00, 0],
+    ["Medalhão de mussarela", "espeto", 8.00, 0],
+    ["Medalhão romeu e julieta", "espeto", 8.00, 0],
+    ["Medalhão mandioca", "espeto", 8.00, 0],
+    ["Panceta", "espeto",  7.00, 0],
+    ["Tábua de mandioca e tomate (meia)", "tábua", 6.00, 0],
+    ["Tábua de mandioca e tomate (inteira)", "tábua", 8.00, 0]
 ];
 let gourmets = [
     ["lista", "gourmets", "vazio"],
-    ["Queijo coalho com mel", "", 10.00, 0],
-    ["Queijo coalho com doce de leite", "", 10.00, 0],
-    ["Queijo coalho com com goiabada", "", 10.00, 0]
+    ["Queijo coalho com mel", "espeto", 10.00, 0],
+    ["Queijo coalho com doce de leite", "espeto", 10.00, 0],
+    ["Queijo coalho com com goiabada", "espeto", 10.00, 0]
 ];
 let bebidas = [
     ["lista", "bebidas", "vazio"],
-    ["Refrigerante lata", "", 5.00, 0],
-    ["Coca-cola 2 Litros", "", 15.00, 0],
-    ["Coca-cola 1 Litro", "", 10.00, 0],
-    ["Guaraná Antártica 1 Litro", "", 8.00, 0],
-    ["Água Mineral (com ou sem gás)", "", 3.00, 0],
-    ["Suco de Laranja 250 ML", "", 8.00, 0],
-    ["Suco de Laranja 500 ML", "", 10.00, 0],
-    ["Suco de Laranja 1L", "", 18.00, 0]
+    ["Refrigerante lata", "refrigerante", 5.00, 0],
+    ["Coca-cola 2 Litros", "refrigerante", 15.00, 0],
+    ["Coca-cola 1 Litro", "refrigerante", 10.00, 0],
+    ["Guaraná Antártica 1 Litro", "refrigerante", 10.00, 0],
+    ["Água Mineral (com ou sem gás)", "bebida", 3.00, 0],
+    ["Suco de Laranja 250 ML", "suco", 8.00, 0],
+    ["Suco de Laranja 500 ML", "suco", 10.00, 0],
+    ["Suco de Laranja 1L", "suco", 18.00, 0]
 ];
 let cervejas = [
     ["lista", "cervejas", "vazio"],
-    ["Skol 600ML", "", 10.00, 0],
-    ["Brama 600ML", "",  10.00, 0],
-    ["Antártica 600ML", "", 10.00, 0],
-    ["Heineken 600ML", "", 14.00, 0],
-    ["Heineken 250ML", "", 7.00, 0],
-    ["Heineken Zero Álcool", "", 9.00, 0],
-    ["Cerveja lata", "", 5.00, 0],
+    ["Skol 600ML", "cerveja", 10.00, 0],
+    ["Brama 600ML", "cerveja",  10.00, 0],
+    ["Antártica 600ML", "cerveja", 10.00, 0],
+    ["Heineken 600ML", "cerveja", 14.00, 0],
+    ["Heineken 250ML", "cerveja", 7.00, 0],
+    ["Heineken Zero Álcool", "cerveja", 9.00, 0],
+    ["Cerveja lata", "cerveja", 5.00, 0],
 ];
 let combos = [
     ["carrossel", "combo", "vazio"],
@@ -64,10 +66,10 @@ let combos = [
 ];
 let chopps = [
     ["carrossel", "chopp", "vazio"],
-    ["CHOPP 300 ML", "", 7.00, 0],
-    ["CHOPP 600 ML", "", 12.00, 0],
-    ["CHOPP 1 LITRO", "", 20.00, 0],
-    ["CHOPP VINHO LATA", "", 8.00, 0]
+    ["CHOPP 300 ML", "Chopp de 300 ml", 7.00, 0],
+    ["CHOPP 600 ML", "Chopp de 600 ml", 12.00, 0],
+    ["CHOPP 1 LITRO", "Chopp de 1 litro", 20.00, 0],
+    ["CHOPP VINHO LATA", "Chopp vinho lata", 8.00, 0]
 ]
 
 //Lista geral
