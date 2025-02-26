@@ -180,7 +180,7 @@ function mostrarPedido() {
 let totalPedido = 0.0
 
 //Link 
-let link = "https://wa.me/551631723514?text=Novo%20pedido%0A%0A";
+let link = "https://wa.me/5516992467515?text=Novo%20pedido%0A%0A";
 function montarLink() {
 
     //Reiciando o total
