@@ -106,25 +106,17 @@ let fechar;
 let retorno = true;
 function aberto() {
     switch (dia) {
-        case 2:
+        case 0:
             retorno = false;
             break;
-        case 3:
-            retorno = false;
-            break;
-        case 4:
-            retorno = false;
-            break;
-        case 5:
-            retorno = false;
-            break;
-        case 6:
+        case 1:
             retorno = false;
             break;
     }
     if (horas < 18 && horas > 23) {
         retorno = false;
     }
+    
     return retorno;
 }
 
