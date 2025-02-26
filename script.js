@@ -104,35 +104,24 @@ let fechar;
 let retorno = true;
 function aberto() {
     switch (dia) {
-        case 0:
-            fechar = 22;
-            break;
-        case 1:
-            fechar = 21;
-            break;
         case 2:
-            fechar = 21;
+            retorno = false;
             break;
         case 3:
-            fechar = 21
+            retorno = false;
             break;
         case 4:
-            fechar = 21;
+            retorno = false;
             break;
         case 5:
-            fechar = 22;
+            retorno = false;
             break;
         case 6:
-            fechar = 22
+            retorno = false;
             break;
     }
-    if (horas >= 14 && horas <= fechar) {
-        if (horas == 14 && minutos < 30) {
-            retorno = false;
-        }
-        if (horas == fechar && minutos > 30) {
-            retorno = false;
-        }
+    if (horas < 18 && horas > 23) {
+        retorno = false;
     }
     return retorno;
 }
@@ -248,7 +237,7 @@ function montarLink() {
 //Seleciona informações para o link
 let info1;
 let info2;
-let taxaEntrega = 5.0;
+let taxaEntrega = 2.0;
 get('taxaEntrega').innerHTML = taxaEntrega.toFixed(2);
 function moldarInfo() {
     let retirar = get('retirar').checked;
