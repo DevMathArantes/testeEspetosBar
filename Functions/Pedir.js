@@ -61,7 +61,7 @@ export function Pedir(id, listaAdicionais, inclusos){
                     </div>
 
                     <button onclick="globalMontar('${id}', ${inclusos})" class="buttonPd">
-                        <img src="Assets/Icons/comprar.png" alt="icone montar">
+                        <img src="Assets/icons/comprar.png" alt="icone montar">
                         Montar
                     </button>
 
