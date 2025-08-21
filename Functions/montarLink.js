@@ -19,7 +19,7 @@ export function montarLink(){
         <img class="imgPd" src="Assets/Images/logo.png" alt="logo">
 
         <a href="${linkMontado()}" class="buttonPd">
-            <img src="Assets/Icons/enviar.png" alt="icone enviar pedido">
+            <img src="Assets/icons/enviar.png" alt="icone enviar pedido">
             Enviar Pedido
         </a>
 

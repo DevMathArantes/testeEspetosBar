@@ -39,7 +39,7 @@ export function montarCompra(){
                 <p><strong>Quantidade:</strong> ${montado[4]}</p>
                 <span>Total: R$ <i>${montado[3]}</i></span>
                 <button onclick="globalEsquecer(${i})" class="buttonPd">
-                    <img src="Assets/Icons/lixeira.png" alt="iconeLixeira">
+                    <img src="Assets/icons/lixeira.png" alt="iconeLixeira">
                     Esquecer
                 </button>
             </div>
