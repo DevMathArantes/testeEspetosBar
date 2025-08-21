@@ -20,7 +20,7 @@ export function Pedir(id, listaAdicionais, inclusos){
                 </div>
 
                 <button onclick="globalDijuntor('montar')" class="subNav">
-                    <img src="Assets/Icons/cancelar.png" alt="icone cancelar">
+                    <img src="Assets/icons/cancelar.png" alt="icone cancelar">
                     Cancelar
                 </button>
 
@@ -49,13 +49,13 @@ export function Pedir(id, listaAdicionais, inclusos){
                     <div class="quantidade">
 
                         <button onclick="globalDiminuirQuantidade()">
-                            <img src="Assets/Icons/retirar.png" alt="icone retirar">
+                            <img src="Assets/icons/retirar.png" alt="icone retirar">
                         </button>
 
                         <span id="quantidade">1</span>
 
                         <button onclick="globalAumentarQuantidade()">
-                            <img src="Assets/Icons/adicionar.png" alt="icone adicionar">
+                            <img src="Assets/icons/adicionar.png" alt="icone adicionar">
                         </button>
 
                     </div>
