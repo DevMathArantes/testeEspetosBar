@@ -53,11 +53,11 @@ get("tituloPag").innerHTML = titulo;
 get("links").innerHTML=`
     <h3>Converse conosco</h3>
     <a href="${whatsapp}">
-        <img src="Assets/Icons/whatsapp.png" alt="icone whatsapp">
+        <img src="Assets/icons/whatsapp.png" alt="icone whatsapp">
         WhatsApp
     </a>
     <a href="${instagram}">
-        <img src="Assets/Icons/instagram.png" alt="icone instagram">
+        <img src="Assets/icons/instagram.png" alt="icone instagram">
         Instagram
     </a>
 `;

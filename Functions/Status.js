@@ -22,6 +22,7 @@ let aviso;
 
 //Retorna se estamos abertos ou fechados
 export function status(){
+    return true;
     diaAtual = funcionamento[dia];
     abrir = diaAtual[0];
     if(abrir == null){
