@@ -65,7 +65,7 @@
     display: none;
 }
 .header1 nav label{
-    background-image: url(../Assets/Icons/menuFechado.png);
+    background-image: url(../Assets/icons/menuFechado.png);
     background-size: 100%;
     width: 2em;
     height: 2em;

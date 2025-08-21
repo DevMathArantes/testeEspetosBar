@@ -9,13 +9,13 @@ export function montarCompra(){
 
     get('controlesCarrinho').innerHTML=`
         <button onclick="globalDijuntor('carrinho')" class="subNav subNavMeio">
-            <img src="Assets/Icons/setaEsquerda.png" alt="icone cancelar">
+            <img src="Assets/icons/setaEsquerda.png" alt="icone cancelar">
             Voltar
         </button>
 
         <button onclick="globalMontarFormulario()" class="subNav subNavMeio subNavMeioDireita">
             Confirmar
-            <img src="Assets/Icons/setaDireita.png" alt="icone confirmar">
+            <img src="Assets/icons/setaDireita.png" alt="icone confirmar">
         </button>
     `;
 

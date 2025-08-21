@@ -5,13 +5,13 @@ export function montarFormulario(){
 
     get('controlesCarrinho').innerHTML=`
         <button onclick="globalMontarCompra()" class="subNav subNavMeio">
-            <img src="Assets/Icons/setaEsquerda.png" alt="icone cancelar">
+            <img src="Assets/icons/setaEsquerda.png" alt="icone cancelar">
             Voltar
         </button>
 
         <button onclick="globalMontarLink()" class="subNav subNavMeio subNavMeioDireita">
             Verificar
-            <img src="Assets/Icons/setaDireita.png" alt="icone confirmar">
+            <img src="Assets/icons/setaDireita.png" alt="icone confirmar">
         </button>
     `;
     

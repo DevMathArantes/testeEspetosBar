@@ -7,7 +7,7 @@ export function montarLink(){
 
         get('controlesCarrinho').innerHTML=`
             <button onclick="globalMontarFormulario()" class="subNav">
-                <img src="Assets/Icons/setaEsquerda.png" alt="icone cancelar">
+                <img src="Assets/icons/setaEsquerda.png" alt="icone cancelar">
                 Voltar
             </button>
         `;
