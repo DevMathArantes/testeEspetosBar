@@ -388,7 +388,7 @@
   text-align: center;
   border-radius: 10px;
   color: var(--branco);
-  background-image: url(../Assets/Icons/adicionaisFechado.png);
+  background-image: url(../Assets/icons/adicionaisFechado.png);
   background-repeat: no-repeat;
   background-size: 1em;
   background-position: 95%;
@@ -402,7 +402,7 @@
   gap: 1em;
 }
 .abrirListaOculta:checked + label{
-  background-image: url(../Assets/Icons/adicionaisAberto.png);
+  background-image: url(../Assets/icons/adicionaisAberto.png);
 }
 .abrirListaOculta:checked + label + .listaOculta{
   display: flex;
@@ -417,7 +417,7 @@
 }
 .abrirLista:checked + label{
     transition: 0.5s;
-    background-image: url(../Assets/Icons/menuAberto.png);
+    background-image: url(../Assets/icons/menuAberto.png);
 }
 .listaFechada{
     display: none;
